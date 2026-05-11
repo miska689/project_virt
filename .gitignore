@@ -1,0 +1,44 @@
+# VM disk images & snapshots
+*.qcow2
+*.img
+*.iso
+*.vmdk
+*.vdi
+*.raw
+
+# libvirt / virt-builder caches
+.cache/
+.local/share/libvirt/
+
+# Kubernetes / minikube
+.minikube/
+kubeconfig
+*.kubeconfig
+
+# Docker
+**/docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_rsa.*
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
